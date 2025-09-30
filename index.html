@@ -6,6 +6,7 @@
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="styles.css">
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
 </style>    
 </head>
@@ -13,7 +14,12 @@
     <div class="sign-up">
 
 
-    <div class="left-section"></div>
+    <div class="left-section">
+      <div class="leftBck">
+        <img src="/images/odin-lined.png" alt="odin-logo">
+        <p class="odinLogo">ODIN</p>
+      </div>
+    </div>
     <div class="right-section">
       <div class="header">
         <h3>This is not a real online service! You know you need something 
@@ -23,50 +29,54 @@
         <h3>You <i> know </i> you want to.</h3>
       </div>  
     
-      <h3 class="paraText">Let's do this!</h3>
+    
+    
+    
+      <div class="mainDiv">
+          <h3 class="paraText">Let's do this!</h3>
 
-      <div class="sign-up">
-        <div class="signDivs">
-            <div>
-            <label for="first_name">First Name</label>
-            <input type="text" id="first_name" name="first_name">
+          <div class="sign-up">
+            <div class="signDivs">
+                <div>
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name">
+                </div>
+
+                <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                </div>
+
+                <div>
+                <label for="email">Password</label>
+                <input type="password" id="password" name="password">
+                </div>
+            
             </div>
 
-            <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
-            </div>
+            <div class="signDivs">
+                <div>
+                <label for="last">Last Name</label>
+                <input type="text" id="last" name="last">
+                </div>
 
-            <div>
-            <label for="email">Password</label>
-            <input type="password" id="password" name="password">
-            </div>
-        
-        </div>
+              <div>
+              <label for="phone">Phone number</label>
+              <input type="number" id="phone" name="phone">
+              </div>
 
-        <div class="signDivs">
-            <div>
-            <label for="last">Last Name</label>
-            <input type="text" id="last" name="last">
-            </div>
-
-            <div>
-            <label for="phone">Phone number</label>
-            <input type="number" id="phone" name="phone">
-            </div>
-
-            <div>
-            <label for="email"> Confirm Password</label>
-            <input type="password" id="password" name="password">
-            </div>
-        
-        </div>
+              <div>
+              <label for="email"> Confirm Password</label>
+              <input type="password" id="password" name="password">
+              </div>
+          
+          </div>
       </div>
 
-
+    </div>
       <div class="footer">
         <button class="createBtn">Create Account</button>
-        <p>Already have an account? <a href="#">Log in</a></p>
+        <p>Already have an account? <a href="#" class="logA">Log in</a></p>
     </div>
 
     </div>

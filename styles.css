@@ -10,10 +10,31 @@
     display: flex;
 }
 
-.left-section,
-.right-section{
-    height: 100vh;
-    border: 1px solid blueviolet;
+
+.left-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.leftBck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftBck > img{
+    height: 10vh;
+}
+
+.odinLogo{
+    font-family: "Caesar Dressing", system-ui;
+    color: white;
+    font-size: 5.4vw;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .left-section{
@@ -26,7 +47,12 @@
 
 }
 
+
+
+
+
 .right-section{
+    background-color: rgb(242, 242, 242);
      width: auto;
      display: flex;
      flex-direction: column;
@@ -36,11 +62,10 @@
 
 .header{
     height: 30vh;
-    background-color: rgb(238, 238, 238);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 50px;
+    padding:0 50px;
     gap: 20px;
 }
 
@@ -53,11 +78,18 @@
 }
 
 
+.mainDiv{
+    height: 35vh;
+    padding-top: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -2px 8px 20px 6px rgba(171, 170, 170, 0.97);
+}
+
 
 .sign-up{
-    background-color: beige;
     display: flex;
-    
+    padding-top: 30px;
+   
 }
 
 .signDivs{
@@ -73,7 +105,7 @@
 }
 
 label {
-    color: rgb(107, 107, 107);
+   
     font-size: .8vw;
     font-weight: 700;
     letter-spacing: 2px;
@@ -83,9 +115,33 @@ label {
 input {
     height: 30px;
     width: 230px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
 }
 
 .footer{
-    height:30vh;
-    background-color: rgb(238, 238, 238);
+    padding-left: 50px;
+    padding-top: 40px;
+    height: 20vh;
+  
+}
+
+.createBtn{
+    color: aliceblue;
+    font-size: 1.5vw;
+    padding: 10px 20px;
+    background-color: #00666b;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+.footer > p{
+    padding-top: 20px;
+}
+
+.logA{
+    color: #00666b;
+    font-weight: 700;
+    text-decoration: none;
 }
